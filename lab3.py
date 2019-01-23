@@ -10,4 +10,14 @@ def double(x: int) -> int:
     """
     return 2 * x
 
+def triple(x: int) -> int:
+    """Triples an integers.
+
+    >>> triple(2)
+    6
+    >>> triple(3)
+    9
+    """
+    return 3 * x
+
 
